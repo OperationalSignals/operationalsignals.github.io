@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operational Signals | Working Capital Optimization</title>
+    <style>
+        /* Modern Corporate Styling */
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            color: #2d3748;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f7fafc;
+        }
+        
+        /* Navigation Bar */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            box-sizing: border-box;
+            z-index: 1000;
+        }
+        
+        .logo {
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: #1a365d;
+            letter-spacing: -0.5px;
+        }
+        
+        .nav-links a {
+            color: #4a5568;
+            text-decoration: none;
+            margin-right: 25px;
+            font-size: 0.95rem;
+        }
+        
+        .nav-links a:hover {
+            color: #3182ce;
+        }
+        
+        /* The Top Subscribe Button requested */
+        .btn-nav-subscribe {
+            background-color: #3182ce;
+            color: white !important;
+            padding: 8px 18px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+        
+        .btn-nav-subscribe:hover {
+            background-color: #2b6cb0;
+        }
+        
+        /* Section Layouts */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        section {
+            padding: 80px 0 60px 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        /* Hero Welcome Section */
+        #hero {
+            background-color: #1a365d;
+            color: white;
+            text-align: center;
+            padding: 140px 20px 80px 20px;
+            border-bottom: none;
+        }
+        
+        #hero h1 {
+            font-size: 2.5rem;
+            margin: 0 0 15px 0;
+            letter-spacing: -1px;
+        }
+        
+        #hero p {
+            font-size: 1.2rem;
+            color: #90cdf4;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            color: #1a365d;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        /* 1. Benefits Grid */
+        .grid {
+            display: flex;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 6px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+            border: 1px solid #edf2f7;
+            flex: 1;
+        }
+        
+        .card h3 {
+            color: #2b6cb0;
+            margin-top: 0;
+        }
+        
+        /* 2. What We Do Steps */
+        .step {
+            margin-bottom: 25px;
+            background: white;
+            padding: 20px 30px;
+            border-radius: 6px;
+            border-left: 4px solid #3182ce;
+        }
+        
+        .step-title {
+            font-weight: bold;
+            color: #1a365d;
+            font-size: 1.1rem;
+        }
+        
+        /* 3. Subscription Box */
+        .price-box {
+            background: #ebf8ff;
+            border: 1px solid #bee3f8;
+            border-radius: 8px;
+            padding: 40px;
+            text-align: center;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        
+        .price {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #1a365d;
+            margin: 15px 0;
+        }
+        
+        .btn-large {
+            display: inline-block;
+            background-color: #3182ce;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+        
+        .btn-large:hover {
+            background-color: #2b6cb0;
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px;
+            background-color: #1a365d;
+            color: #a0aec0;
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive design for mobile screens */
+        @media (max-width: 768px) {
+            .grid { flex-direction: column; }
+            nav { padding: 15px 20px; }
+            .nav-links { display: none; } /* Keeps layout clean on small screens */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Navigation Bar -->
+    <nav>
+        <div class="logo">Operational Signals</div>
+        <div class="nav-links">
+            <a href="#benefits">Benefits</a>
+            <a href="#what-we-do">What We Do</a>
+            <a href="#subscription">Subscription</a>
+            <a href="#about">About Us</a>
+            <a href="#subscription" class="btn-nav-subscribe">Subscribe</a>
+        </div>
+    </nav>
+
+    <!-- Main Welcome Header -->
+    <section id="hero">
+        <h1>Automated Capital Protection Engine</h1>
+        <p>Bypassing legacy ERP integration barriers to isolate hidden branch profit leaks in under 60 seconds.</p>
+    </section>
+
+    <div class="container">
+        
+        <!-- 1. BENEFITS SECTION -->
+        <section id="benefits">
+            <h2>Strategic Management Benefits</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Isolate Capital Traps</h3>
+                    <p>Stop financing delinquent contractor balances across siloed branch locations before your end-of-month financial statements generate.</p>
+                </div>
+                <div class="card">
+                    <h3>Expose Order Padding</h3>
+                    <p>Instantly flag branch purchasing anomalies where inventory is artificially accumulated solely to hit free-freight volumes[cite: 1, 2].</p>
+                </div>
+                <div class="card">
+                    <h3>Protect Back-End Rebates</h3>
+                    <p>Detect unauthorized non-preferred brand substitutions at the local counter before they sabotage your critical corporate purchasing coop goals[cite: 1, 2].</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. WHAT WE DO SECTION -->
+        <section id="what-we-do">
+            <h2>What We Do</h2>
+            <p style="text-align: center; max-width: 700px; margin: 0 auto 40px auto;">We process unformatted, static flat-file ledger data through an optimized in-memory Python pipeline to provide absolute operational clarity above branch politics.</p>
+            
+            <div class="step">
+                <div class="step-title">Step 1: Zero-IT Data Ingestion</div>
+                <p>You extract standard .csv ledger summaries from your existing P21 or Infor ERP module[cite: 2]. No complex API programming, database access requests, or firewall friction[cite: 2].</p>
+            </div>
+            <div class="step">
+                <div class="step-title">Step 2: Cross-Module Harmonization</div>
+                <p>Our algorithms instantly bridge the data gap between physical branch inventory logs, historical sales velocity, and regional credit exposure accounts[cite: 2].</p>
+            </div>
+            <div class="step">
+                <div class="step-title">Step 3: Execution Roadmap Delivery</div>
+                <p>We filter out standard operational transaction noise to deliver a singular, clear 1-page executive action roadmap showing your primary 10 working capital risks[cite: 2].</p>
+            </div>
+        </section>
+
+        <!-- 3. SUBSCRIPTION SECTION -->
+        <section id="subscription">
+            <h2>Subscription Plan</h2>
+            <div class="price-box">
+                <div style="font-weight: bold; text-transform: uppercase; color: #4a5568; letter-spacing: 1px;">Monthly Diagnostic Framework</div>
+                <div class="price">$1,500<span style="font-size: 1rem; font-weight: normal; color: #718096;"> / month</span></div>
+                <p style="font-size: 0.95rem; color: #4a5568; margin-bottom: 25px;">Includes regular diagnostic updates, automated cross-module anomaly detection, and custom boardroom conversation checklists[cite: 2].</p>
+                <a href="mailto:contact@operationalsignals.org?subject=Subscription%20Inquiry" class="btn-large">Activate Framework Subscription</a>
+            </div>
+        </section>
+
+        <!-- 4. ABOUT US SECTION -->
+        <section id="about" style="border-bottom: none;">
+            <h2>About Us</h2>
+            <p style="max-width: 750px; margin: 0 auto; text-align: center; color: #4a5568;">
+                Operational Signals designs highly optimized data intelligence systems tailored specifically for mid-market industrial and HVACR distributors[cite: 2]. Rooted in the precise methodologies of analytical materials science and advanced workflow engineering, our systems translate disorganized corporate transaction datasets into reliable, objective capital security markers without draining internal technical resources[cite: 2].
+            </p>
+        </section>
+
+    </div>
+
+    <!-- Corporate Footer -->
+    <footer>
+        <p>&copy; 2026 Operational Signals. All rights reserved. | Built for Modern Industrial Distribution Finance[cite: 2].</p>
+    </footer>
+
+</body>
+</html>
